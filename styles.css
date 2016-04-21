@@ -5,10 +5,14 @@ This is the sytle sheet file for the game*/
 
 img {
     border: 2px solid black;
-    width: 50px;
-    height: 5opx;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
 }
 
+button {
+    margin-top: 50px;
+}
 body {
     display: flex;
     align-content: center;
@@ -16,6 +20,10 @@ body {
 
 .jumbotron {
     display: flex;
+    align-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-left: 400px;
+    margin-left: 35%;
+    width: 500px;
+    height: 500px;
 }
