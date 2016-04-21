@@ -15,6 +15,14 @@ function diceGame(){
     // variables get the documents by hteir ids
     var dice1 = document.getElementById("dice1").src = "images/" + d1 + ".png";
     var dice2 = document.getElementById("dice2").src = "images/" + d2 + ".png";
+    
+    // displaying the numbers
+    var number1 = document.getElementById("number1");
+	number1.innerHTML = d1;
+    
+    var number2 = document.getElementById("number2");
+	number2.innerHTML = d2;
+    
     console.log("Game ended");
     
 };
