@@ -1,3 +1,8 @@
+// app.js
+// Author: Tarundeep Singh
+// Date: April , 21st 2016
+// This is the javascript file for the game
+
 document.getElementById("btn").addEventListener("click", diceGame);
 
 function diceGame(){

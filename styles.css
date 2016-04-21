@@ -1,10 +1,21 @@
+/*styles.css
+Author: Tarundeep Singh
+Date: April , 21st 2016
+This is the sytle sheet file for the game*/
+
 img {
     border: 2px solid black;
+    width: 50px;
+    height: 5opx;
 }
 
-
-
-jumbotron {
+body {
     display: flex;
-    
+    align-content: center;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
 }
